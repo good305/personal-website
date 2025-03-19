@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "秦子怡 - 个人网站"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: about.qmd
+        text: 个人简介
+      - href: education.qmd
+        text: 教育经历
+      - href: contact.qmd
+        text: 联系方式
+  sidebar: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles/styles.css
+    toc: false
+    code-fold: true
+
+github:
+  repo: https://github.com/liming/personal-website
+  branch: main
+  output-dir: docs
